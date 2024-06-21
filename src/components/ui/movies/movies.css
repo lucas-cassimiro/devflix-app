@@ -1,0 +1,18 @@
+div:first-child {
+    display: flex;
+}
+
+div:first-child > div img {
+    width: 300px;
+    height: 350px;
+    object-fit: contain;
+}
+
+/* div:first-child > div {
+    display: flex;
+    flex-direction: column;
+} */
+
+div:first-child > div p {
+    width: 300px;
+}
