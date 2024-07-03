@@ -1,11 +1,16 @@
-import { Header, Footer, Movies } from './components/ui'
+import { Header } from './components/ui'
+import './styles/app.css'
+
+import { Carousel } from './lib/carousel'
+import { movies } from './mocks/movies'
+
 
 function App() {
   return (
     <>
       <Header />
-      <Movies />
-      <Footer />
+      <Carousel categorie='Ação'  movies={movies}  />
+      <Carousel categorie='Romance' movies={movies} />
     </>
   )
 }

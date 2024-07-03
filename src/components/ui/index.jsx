@@ -1,3 +1,6 @@
+// eslint-disable-next-line react-refresh/only-export-components
 export * from './header'
+// eslint-disable-next-line react-refresh/only-export-components
 export * from './footer'
-export * from './movies/movies'
+// eslint-disable-next-line react-refresh/only-export-components
+export * from './movies'
