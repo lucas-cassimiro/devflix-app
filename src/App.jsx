@@ -1,16 +1,15 @@
-import { Header } from './components/ui'
+import { Header, Footer } from './components/ui'
 import './styles/app.css'
 
-import { Carousel } from './lib/carousel'
-import { movies } from './mocks/movies'
-
+import { router } from './routes'
+import { RouterProvider } from 'react-router-dom'
 
 function App() {
   return (
     <>
       <Header />
-      <Carousel categorie='Ação'  movies={movies}  />
-      <Carousel categorie='Romance' movies={movies} />
+      <RouterProvider router={router} />
+      <Footer />
     </>
   )
 }
